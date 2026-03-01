@@ -1,0 +1,19 @@
+{
+  "name": "openmob",
+  "version": "0.1.0",
+  "description": "Lightweight, architecture-first automation runtime for OpenMob",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "run": "tsx automation/cli.ts",
+    "dev": "tsx watch automation/cli.ts",
+    "test": "echo \"No tests yet\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
