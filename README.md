@@ -23,10 +23,10 @@ Current runtime flow:
 ## Current Features
 - Minimal TypeScript Node setup
 - `Task` interface with `start()`, `stop()`, `validate()`
-- `AutomationEngine` with task registration and execution
-- `LogTask` example implementation
-- CLI runner (`npm run run -- log`)
-- Architecture placeholders for permissions, safety, and plugins
+- `AutomationEngine` with task registration + runtime hooks
+- Example tasks: `LogTask`, `MockTapTask` (dry-run)
+- CLI runner (`npm run run -- log` or `npm run run -- mock-tap`)
+- Placeholder runtime hooks for permissions, safety, and plugin growth
 
 ## Setup Instructions
 ### Prerequisites
